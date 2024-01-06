@@ -1,0 +1,31 @@
+header img{
+    width: 250px;
+    padding-left: 590px;
+}
+.sgup{
+    width: 190px;
+    padding:5px;
+    padding-left: 40.08%;
+    padding-top: 7%;
+    margin: 5px solid black;
+}
+.sgg{
+    padding: 5px;
+    gap: 10px;
+}
+input { 
+    margin-bottom: 10px; 
+}
+#btn{
+    width: 203px;
+    background-color: palevioletred;
+    border-radius: 5px;
+}
+.sgg p{
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 253px;
+}
+.sgg button a{
+    text-decoration: none;
+}

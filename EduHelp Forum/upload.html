@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: url('img/matbg.jpg');
+        background-size: 100%;
+    }
+    .limg img{
+        width: 200px;
+        height: 200px;
+        display: flex;
+    }
+    .left{
+        margin-top: 70px;
+        width: 300px;
+        height: 700px;
+        display: flex;
+    }
+    .left ul li a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .left ul li{
+        padding-top: 90px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .right{
+        margin-top: 300px;
+        margin-left: 180px;
+        border: 2px solid white;
+        height: 382px;
+        width: 944px;
+    }
+    .god{
+        display: flex;
+    }
+    .mid {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin-left: 397px;
+        margin-top: 20px;
+        border: 2px solid green;
+        background-color: aliceblue;
+        border-radius: 5px;
+        position: fixed;
+    }
+    .navbaru{
+        display: inline-block;
+    }
+    .navbaru li {
+        display: inline-block;
+        font-size: 20px;
+        background-color: aliceblue;
+        padding: 15px;
+    }
+
+    .navbaru li a {
+        color: red;
+        text-decoration: none;
+        font-style: bold;
+    }
+
+    .navbaru li a:hover,
+    .navbaru li a:active {
+        color: rgb(215, 218, 18);
+        text-decoration: underline;
+    }
+    .right p{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #bttn{
+        margin-left: 439px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 7px;
+        background-color: lime;
+        border-radius: 5px;
+        border: 3px solid blue;
+        cursor: pointer;
+    }
+    #file{
+        margin-left: 340px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 7px;
+        background-color: rgb(157, 209, 220);
+        border-radius: 5px;
+        border: 3px solid rgba(144, 80, 8, 0.945);
+        cursor: pointer;
+    }
+    .right{
+        background-color: rgba(255,255,255,0.5);
+    }
+</style>
+<body>
+    <div class="mid">
+        <ul class="navbaru">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="materials.html">MATERIALS</a></li>
+            <li><a href="doubts.html">DOUBTS SECTION</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cd.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <div class="god">
+        <div>
+            <div class="limg">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="left">
+                <ul class="navbar">
+                    <li><a href="materials.html">DOCUMENTS</a></li>
+                    <li><a href="downloads.html">DOWNLOADS</a></li>
+                    <li><a href="upload.html">UPLOAD</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="right">
+                <p>Upload your files here</p>
+                <br>
+                <!-- <input type="file" id="fl"> -->
+                <!-- <button class="btn" id="butn">Choose File</button> -->
+                <!-- <br> -->
+                <!-- <button type="submit" id="bttn">UPLOAD</button> -->
+                <form>
+                    <label for="file"></label>
+                    <input id="file" type="file" />
+                    <br>
+                    <button id="bttn">Upload</button>
+                  </form>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

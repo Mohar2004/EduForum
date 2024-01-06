@@ -1,0 +1,55 @@
+    .left img{
+        width: 200px;
+        height: 200px;
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        border: 2px solid red;
+    }
+    .mid {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin-left: 397px;
+        margin-top: 20px;
+        border: 2px solid green;
+        background-color: aliceblue;
+        border-radius: 5px;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 20px;
+        border: 2px solid yellow;
+        background-color: rgba(245, 245, 220, 0.635);
+        padding: 14px;
+        border-radius: 5px;
+    }
+    .right button{
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+        background-color: aliceblue;
+        padding: 15px;
+    }
+
+    .navbar li a {
+        color: red;
+        text-decoration: none;
+        font-style: bold;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: rgb(215, 218, 18);
+        text-decoration: underline;
+    }

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANSWER DOUBT</title>
+</head>
+<style>
+    body{
+        background: url('img/dbg.jpg');
+        background-size: 100%;
+    }
+    .limg img{
+        width: 200px;
+        height: 200px;
+        display: flex;
+    }
+    .left{
+        margin-top: 70px;
+        width: 350px;
+        height: 510px;
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.687) ;
+    }
+    .left ul li a{
+        text-decoration: none;
+        color: rgb(5, 23, 76);
+    }
+    .left ul li{
+        padding-top: 60px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .right{
+        margin-top: 300px;
+        margin-left: 180px;
+        border: 2px solid white;
+        height: 382px;
+        width: 944px;
+    }
+    .god{
+        display: flex;
+    }
+    .mid {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin-left: 397px;
+        margin-top: 20px;
+        border: 2px solid green;
+        background-color: aliceblue;
+        border-radius: 5px;
+        position: fixed;
+    }
+    .navbaru{
+        display: inline-block;
+    }
+    .navbaru li {
+        display: inline-block;
+        font-size: 20px;
+        background-color: aliceblue;
+        padding: 15px;
+    }
+
+    .navbaru li a {
+        color: red;
+        text-decoration: none;
+        font-style: bold;
+    }
+    .navbaru li a:active {
+        color: rgb(215, 218, 18);
+        text-decoration: underline;
+    }
+    .right{
+        background-color: rgba(255,255,255,0.5);
+        margin-top: 340px;
+    }
+    #doubt{
+        margin-top: 20px;
+        margin-left: 150px;
+        margin-bottom: 45px;
+        width: 650px;
+        height: 80px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-align: justify;
+        font-size: 15px;
+    }
+    #sb{
+        margin-left: 390px;
+        background-color: lime;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 2.5px;
+    }
+    .right p{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        margin-top: 80px;
+    }
+</style>
+<body>
+    <div class="mid">
+        <ul class="navbaru">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="materials.html">MATERIALS</a></li>
+            <li><a href="doubts.html">DOUBTS SECTION</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cd.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <div class="god">
+        <div>
+            <div class="limg">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="left">
+                <ul class="navbar">
+                    <li><a href="doubts.html">DOUBTS</a></li>
+                    <li><a href="askd.html">ASK DOUBTS</a></li>
+                    <li><a href="myd.html">MY DOUBTS</a></li>
+                    <li><a href="ansd.html">ANSWER DOUBTS</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="right">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                <textarea cols="50" rows="20" id="doubt" placeholder="ENTER YOUR ANSWER HERE"></textarea>
+                <br>
+                <button type="submit" id="sb" onclick="pans()">POST ANSWER</button>
+            </div>
+        </div> 
+    </div>
+    <script>
+        function pans(){
+            console.log(document.getElementById('doubt').value)
+        }
+    </script>
+</body>
+</html>

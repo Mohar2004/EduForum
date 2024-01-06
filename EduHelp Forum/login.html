@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bgf.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }    
+    .login{
+    display: flex;
+}
+form{
+    padding-top: 375px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.form-outline{
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+}
+.leftimg{
+    padding-right: 168px;
+}
+.leftimg img{
+    width: 900px;
+    height: 850px;
+}
+#login{
+    background-color: aqua;
+    width: 309.5px;
+    height: 30px;
+    border-radius: 5px;
+}
+#login:hover{
+    cursor: pointer;
+    color: purple
+}
+.Signup{
+    display: flex;
+    width: 400px;
+    padding-left: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lime;
+}
+.sgn{
+    text-decoration: none;
+}
+#em{
+    width: 300px;
+    height: 25px;
+}
+#pwd{
+    width: 300px;
+    height: 25px;
+}
+#login{
+    font-weight: bold;
+}
+</style>
+<body>
+    <div class="login">  
+         <div class="leftimg">
+            <img src="img/logo.png" alt="">
+        </div>
+        <form>
+            <!-- Email input -->
+            <div class="form-outline">
+                <label class="form-label" for="form2Example1"></label>
+                <input type="email" id="em" class="form" placeholder="Email" />
+            </div>
+        
+        <!-- Password input -->
+        <div class="form-outline">
+            <label class="form-label" for="form2"></label>
+            <input type="password" id="pwd" class="form" placeholder="Password" />
+        </div>
+        <div class="form-outline">
+            <label class="form-label" for="btn"></label>
+            <button type="button" id="login">LOG IN</button>
+        </div>
+        <div class="Signup">
+            <p>New Member? <a href="signup.html" style="color:lime;"> SIGN UP </a></p>
+        </div>
+        </form>
+    </div>
+    <script src="login.js" type="module"></script>
+    </body>
+    
+</html>

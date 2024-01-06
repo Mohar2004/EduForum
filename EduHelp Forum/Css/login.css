@@ -1,0 +1,39 @@
+.login{
+    display: flex;
+}
+form{
+    padding-top: 375px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.form-outline{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+.leftimg{
+    padding-right: 214px;
+}
+.leftimg img{
+    width: 900px;
+    height: 850px;
+}
+#btn{
+    background-color: aqua;
+    width: 171px;
+    border-radius: 5px;
+}
+#btn:hover{
+    cursor: pointer;
+    color: purple
+}
+.Signup{
+    display: flex;
+    width: 400px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lime;
+}
+.sgn{
+    text-decoration: none;
+}

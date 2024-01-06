@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<style>
+    body {
+        background: url('img/bg2.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    header img {
+        width: 250px;
+        padding-left: 590px;
+    }
+
+    .sgup {
+        width: 390px;
+        height: 400px;
+        padding-left: 176px;
+        margin-left: 435px;
+        padding-top: 3.69%;
+        border: 5px solid black;
+    }
+
+    .sgg {
+        padding: 5px;
+        gap: 10px;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    #btn {
+        width: 203px;
+        background-color: palevioletred;
+        border-radius: 5px;
+    }
+
+    .sgg p {
+        font-size: 21px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 253px;
+    }
+
+    .sgg button a {
+        text-decoration: none;
+    }
+
+    .inpp {
+        height: 20px;
+    }
+</style>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="">
+    </header>
+    <form>
+        <div class="sgup">
+            <div class="sgg">
+                <p> NEW USERS SIGN UP</p>
+                <!-- name -->
+                <input type="text" name="nm" id="nmm" class="inpp" placeholder="NAME" size="25">
+                <label for="nmm"></label>
+                <!-- age -->
+                <input type="text" name="ag" id="age" class="inpp" placeholder="YEAR OF STUDY" size="25">
+                <label for="age"></label>
+                <!-- email enter -->
+                <input type="email" name="email" id="em" class="inpp" placeholder="EMAIL ADRESS" size="25">
+                <label for="em"></label>
+                <!-- password create -->
+                <input type="password" name="pwd" id="pss" class="inpp" placeholder="PASSWORD" size="25">
+                <label for="pss"></label>
+                <br>
+                <!-- remember me -->
+                <input type="checkbox" name="rmm" id="r"> REMEMBER ME </input>
+                <label for="r"></label>
+                <br>
+                <!-- Signup -->
+                <button type="button" id="btn" class="inpp">SIGN UP</a> </button>
+                <label for="btn"></label>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="signup.js" type="module"></script>
+
+</html>
